@@ -9,20 +9,28 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.elderly.R
 
-class SignUpStepTwoActivity : AppCompatActivity()  {
+class LoginActivity : AppCompatActivity() {
 
-    private lateinit var btnSignUpDone : Button
-
+    private lateinit var btnLogin : Button
+    private lateinit var btnCreateAccount : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up_step_two)
+        setContentView(R.layout.activity_login)
 
-        btnSignUpDone = findViewById(R.id.btnDoneSignUp)
+        btnLogin = findViewById(R.id.btnLoginDone)
+        btnCreateAccount = findViewById(R.id.createAccountRed)
 
-        btnSignUpDone.setOnClickListener {
-            btnVibrate()
+        btnLogin.setOnClickListener {
+           btnVibrate()
             val intent = Intent(this,FragmentHomeActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        btnCreateAccount.setOnClickListener {
+            btnVibrate()
+            val intent = Intent(this,SignupActivity::class.java)
             startActivity(intent)
         }
     }

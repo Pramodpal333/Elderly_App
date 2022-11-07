@@ -3,17 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/background_fill.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/checkbox_bg.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/circle_bg.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/custom_shape.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/edittext_bg.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/ic_action_tick.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/my_location_icon.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/progress.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/progress_fill.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/rectangle.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/drawable/thumb.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout-large/activity_signup.xml" value="0.18" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout-xlarge/activity_signup.xml" value="0.12" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_fragment_home.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_login.xml" value="0.14" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_onboarding.xml" value="0.2" />
-        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_sign_up_step_two.xml" value="0.22" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_sign_up_step_two.xml" value="0.33" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/fragment_contact.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/fragment_location.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/layout/fragment_profile.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/menu/nav_menu.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/VR PC/AndroidStudioProjects/ElderlyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.32916666666666666" />
       </map>
@@ -28,7 +42,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.12" />
+        <option name="scale" value="0.14" />
       </ProjectState>
     </option>
   </component>

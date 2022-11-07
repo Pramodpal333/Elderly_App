@@ -1,8 +1,10 @@
 package com.example.elderly.basicappactivity
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Vibrator
 import android.util.Log
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
@@ -37,7 +39,14 @@ class OnboardingActivity : AppCompatActivity() {
 
 //        Go to Sign Up
         btnNext.setOnClickListener{
+            btnVibrate()
             startActivity(Intent(this,SignupActivity::class.java))
         }
+    }
+
+    //Vibrate when btn Clicked
+    private fun btnVibrate() {
+        val vibratorService = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        vibratorService.vibrate(100)
     }
 }
